@@ -1,3 +1,2 @@
-Q1. What is Beam?
-Q2. What is seismic load design?
-Q3. Define Superimposed Load?
+Q1. What is Static Indeterminacy?
+Q2. How roller support act in the rigid frames?

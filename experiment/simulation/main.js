@@ -9,7 +9,7 @@
         // Slowly display the text after 2 seconds
         setTimeout(function() {
           document.getElementById("output1a").textContent = "(1) Reaction (R)=4 " ;
-          document.getElementById("output1b").textContent = "(2) Cond. of construction(C)=1(Internal Hinge)" ;
+          document.getElementById("output1b").textContent = "(2) Cond. of construction(C)=1 (Internal Hinge)" ;
           document.getElementById("output1c").textContent = "(3) R = C+3" ;
           document.getElementById("output1d").textContent = "(4) Structure is Determinate" ;
           document.getElementById("output1e").textContent = "(5) At pt. of hinge Bending Moment=0" ;
@@ -70,7 +70,7 @@
         // Slowly display the text after 2 seconds
         setTimeout(function() {
           document.getElementById("output2a").textContent = "(1) Reaction (R)=3 " ;
-          document.getElementById("output2b").textContent = "(2) Conditions of construction(C) = 2 (Internal Hinge)" ;
+          document.getElementById("output2b").textContent = "(2) Cond. of construction(C) = 2(Internal Hinge)" ;
           document.getElementById("output2c").textContent = "(3) R < C+3" ;
           document.getElementById("output2d").textContent = "(4) Structure is unstable" ;
           document.getElementById("output2e").textContent = "(5) Supports are inadequate" ;
@@ -319,7 +319,7 @@
         // Slowly display the text after 2 seconds 
         setTimeout(function() {
           document.getElementById("output6a").textContent = "(1) No. of Elements (B) = 6 & No. of Joints (J) = 6 " ;
-          document.getElementById("output6b").textContent = "(2) No of reactions(R)= 6 & cond. of construction= 2"  ;
+          document.getElementById("output6b").textContent = "(2) No of reactions(R)= 6 & cond. of const. (C)= 2"  ;
           document.getElementById("output6c").textContent = "(3) 3B + R > 3J + C " ;
           document.getElementById("output6d").textContent = "(4) Structure is Statically Indeterminate  " ;
           document.getElementById("output6e").textContent = "(5) No Geometrical instablity ." ;

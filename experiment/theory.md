@@ -13,35 +13,3 @@ A statically determinate structure has zero degree of static indeterminacy, mean
 To determine the additional equations needed to solve for internal forces and reactions in a statically indeterminate structure, various methods can be used, such as the force method, displacement method, and flexibility method. These methods involve the use of compatibility equations, which describe the relationship between deformations and rotations at different points within the structure, and equilibrium equations, which describe the balance of forces and moments within the structure.
 
 In summary, the degree of static indeterminacy is a crucial factor in determining the internal forces and reactions within a structure, and its calculation is an important step in the analysis of statically indeterminate structures.
-
-
-
-
-
-
-
-
-
-
-<center>
-<img src="images/superimposed.png" height="180px"  width="960px" >
-
-### Fig. 1 formula 1
-</center>
-
-
-
-
-
-
-
-The user may calculate the ultimate superimposed load of different units of the frame and the summition of loads of all the 2D frames can give the total imposed load of 3D structure which can transfered to the base, after which the user may calculate the seismic load of the building by using the standard base shear formula shown in the fig. (2).
-
-
-
-
-<center>
-<img src="images/Baseshear.png" height="180px"  width="960px" >
-
-### Fig. 2 formula 2
-</center>

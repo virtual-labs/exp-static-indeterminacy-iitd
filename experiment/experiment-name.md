@@ -1,1 +1,1 @@
-## Experiment name
+##  Determination of Static Indeterminacy

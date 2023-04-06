@@ -410,6 +410,12 @@ document.getElementById("blink-image5").style.visibility="hidden";
 document.getElementById("canvas1f").style.visibility="hidden";
 document.getElementById("blink-image6").style.visibility="hidden";
 document.getElementById('s1_1').style.visibility="hidden";
+document.getElementById("nextButton1").style.visibility="hidden";
+document.getElementById("nextButton2").style.visibility="hidden";
+document.getElementById("nextButton3").style.visibility="hidden";
+document.getElementById("nextButton4").style.visibility="hidden";
+document.getElementById("nextButton5").style.visibility="hidden";
+document.getElementById("nextButton6").style.visibility="hidden";
 document.getElementById("canvas1").style.visibility="visible";
 
 }
@@ -467,6 +473,7 @@ function navNext1f()
 {
 document.getElementById("canvas1e").style.visibility="hidden";
 document.getElementById("canvas1f").style.visibility="visible";
+document.getElementById("nextButton6").style.visibility="hidden";
 document.getElementById('addspecimen6').style.visibility="visible";
 document.getElementById('addspecimen6').style.animation="addspecimen6 2s forwards";
 }

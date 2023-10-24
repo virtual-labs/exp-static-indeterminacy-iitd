@@ -1,1 +1,1 @@
-### Aim of the experiment
+#### This experiment aims to demonstrate the degree of static indeterminacy of different structures having various conditions of construction.  

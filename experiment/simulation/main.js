@@ -4,11 +4,10 @@
       const input2 = document.getElementById("input2").value;
 
       // Check if input1 is 4 and input2 is 1
-      if (input1 == 4 && input2 == 1
-        ) { 
+      if (input1 == 4 && input2 == 1) { 
         // Slowly display the text after 2 seconds
         setTimeout(function() {
-          document.getElementById("output1a").textContent = "(1) Reaction (R)=4 " ;
+          document.getElementById("output1a").textContent = "(1) Reaction (R)= 4 " ;
           document.getElementById("output1b").textContent = "(2) Cond. of construction(C)=1 (Internal Hinge)" ;
           document.getElementById("output1c").textContent = "(3) R = C+3" ;
           document.getElementById("output1d").textContent = "(4) Structure is Determinate" ;
@@ -49,7 +48,7 @@
 
       } else {
         // Display an error message
-       document.getElementById("output1a").textContent = "Wrong Input Values.{ HINT: C = 1 }";
+       document.getElementById("output1a").textContent = "Wrong Input R = 4 & C = 1 ";
        document.getElementById("blink-image1").style.visibility="visible";
        document.getElementById("addspecimen1").style.visibility="hidden";
        document.getElementById("output1a").style.display = "block";
@@ -110,7 +109,7 @@
 
       } else {
         // Display an error message
-       document.getElementById("output2a").textContent = "Wrong Input Values.{ HINT: R = 3 }";
+       document.getElementById("output2a").textContent = "Wrong Input, R = 3 & C = 2 }";
        document.getElementById("blink-image2").style.visibility="visible";
        document.getElementById("addspecimen2").style.visibility="hidden";
 
@@ -170,7 +169,7 @@
 
       } else {
         // Display an error message
-       document.getElementById("output3a").textContent = "Wrong Input Values.{ HINT: C = 2 }";
+       document.getElementById("output3a").textContent = "Wrong Input R = 6 & C = 2 }";
        document.getElementById("blink-image3").style.visibility="visible";
        document.getElementById("addspecimen3").style.visibility="hidden";
       document.getElementById("output3a").style.display = "block";
@@ -231,7 +230,7 @@
 
       } else {
         // Display an error message
-       document.getElementById("output4a").textContent = "Wrong Input Values.{ HINT: B = 6 }";
+       document.getElementById("output4a").textContent = "Wrong Input, R = 3, B = 8 & C = 5";
        document.getElementById("blink-image4").style.visibility="visible";
        document.getElementById("addspecimen4").style.visibility="hidden";
       document.getElementById("output4a").style.display = "block";
@@ -293,7 +292,7 @@
 
       } else {
         // Display an error message
-       document.getElementById("output5a").textContent = "Wrong Input Values.{ HINT: R = 4 }";
+       document.getElementById("output5a").textContent = "Wrong Input, R = 4, B = 7 & J = 5";
        document.getElementById("blink-image5").style.visibility="visible";
        document.getElementById("addspecimen5").style.visibility="hidden";
       document.getElementById("output5a").style.display = "block";
@@ -357,7 +356,7 @@
 
       } else {
         // Display an error message
-       document.getElementById("output6a").textContent = "Wrong Input Values.{ HINT: R = 6 }";
+       document.getElementById("output6a").textContent = "Wrong Input, R = 6, B = 6, J = 6, C = 2";
        document.getElementById("blink-image6").style.visibility="visible";
        document.getElementById("addspecimen6").style.visibility="hidden";
       document.getElementById("output6a").style.display = "block";

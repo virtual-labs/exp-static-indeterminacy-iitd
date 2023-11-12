@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [{
+      "question": "1. Which of the followings are indeterminate structure ?",
+      "answers": {
+        "a": "3 hinged arch",
+        "b": "Continous Beam",
+        "c": "3 member of the portal in the fixity at bottom of columns",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. A Statically indeterminate structures_____",
+      "answers": {
+        "a": "Can be analyzed using compatibility equation only",
+        "b": "Can be analyzed using compatibility equations and equations of static equilibrium",
+        "c": "Can be analyzed using static equilibrium equations only",
+        "d": "Cannot be analyzed at all"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which of the following conditions must be satisfied for both elastic and plastic method of analysis of indeterminate structures? ",
+      "answers": {
+        "a": "Yield condition",
+        "b": "Equilibrium condition",
+        "c": "Mechanism condition",
+        "d": "Compatibility condition"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. A determinate truss should satisfy the relations ________",
+      "answers": {
+        "a": "M = 2J-3",
+        "b": "M = 2J-4",
+        "c": "M = 3J-2",
+        "d": "M + R = 2J"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	{
+		"question": "5. . If the structure cannot be analyzed for external and internal reactions using equilibrium conditions alone, such structure is ______",
+		"answers": {
+		  "a": "Steel structure",
+		  "b": "Determinate structure ",
+		  "c": "Concrete structure",
+		  "d": "Indeterminate structure "
+		},
+		"explanations": {
+		  "a": "Explanation 1  <a href='www.google.com'>here</a>",
+		  "b": "Explanation 2",
+		  "c": "Explanation 2",
+		  "d": "Explanation 2"
+		},
+		"correctAnswer": "d",
+		"difficulty": "Moderate"
+	  }
+    
+  ]
+}

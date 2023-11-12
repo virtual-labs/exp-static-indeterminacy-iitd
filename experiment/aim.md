@@ -1,1 +1,1 @@
-#### This experiment aims to demonstrate the degree of static indeterminacy of different structures having various conditions of construction.  
+#### This Experiment aims to determine the degree of static indeterminacy of different structures having various conditions of construction.

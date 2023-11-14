@@ -8,7 +8,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Experiment 1</title>
+    <title>Experiment 2</title>
     
 
     <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
@@ -54,26 +54,26 @@
 <tr><td>
 <div id="simscreen">
 
-    <div id="title"><h3><strong>Determination of Static Indeterminacy</strong></h3></div>
+    <div id="title"><h3><strong>Determination of Kinematic Indeterminacy</strong></h3></div>
 
 <!-- //////////////////////////////Scene 0 ///////////////////////-->
 <div class="simsubscreen" id="canvas0" style="visibility: visible; width: 700px;margin-right: 50px;margin-left: 50px;" ></br>
 
     <div id="transis" style="
         width: 700px;
-        height: 90px;
+        height: 70px;
         margin-right: 27px;
         margin-left: 1px;
         background-color: #ffffffc9;
         border: 2px solid #0084ff;">
     
     <p class="incanvas" style="font-size:14px;"><strong>Objective:</strong></p>
-                <p class="incanvas" style="font-size:14px;">This Experiment aims to determine the degree of static indeterminacy of different structures having various conditions of construction</p><br>
+                <p class="incanvas" style="font-size:14px;">Determination of Kinematic Indeterminacy of the structures</p><br>
                  
 <br><br><br>
-<p class="incanvas" style="font-size:15px; text-align: justify; position: absolute; color: rgb(10, 10, 133);left: 260px; top: 130px;"><strong><u>SOME FACTS:</u><br></strong><br>(1) The study of static indeterminacy is closely related to the theory of elasticity, which describes the behavior of deformable bodies under external loads.
-    <br><br>(2) The degree of static indeterminacy can be calculated by subtracting the number of equations of equilibrium from the number of unknowns.
-    <br><br>(3) The concept of static indeterminacy is also relevant to other fields, such as electrical circuit analysis and thermal conduction analysis, where the equilibrium of a system cannot be determined by using only the equations of statics.</p>
+<p class="incanvas" style="font-size:15px; text-align: justify; position: absolute; color: rgb(10, 10, 133);left: 260px; top: 130px;"><strong><u>SOME FACTS:</u><br></strong><br>(1) Kinematic indeterminacy can lead to structural instablity if the additional degrees of freedom are not properly constrained.
+    <br><br>(2) Kinematic indeterminacy can be caused by the presence of redundant members in a structure. A redundant member is a member that can be removed from the structure without affecting its stability..
+    <br><br>(3) The concept of kinematic indeterminacy is also important in other fields, such as robotics and biomechanics, where it is used to describe the motion of complex mechanisms and joints.</p>
 
 </div> 
 
@@ -86,7 +86,7 @@
     left: 0px;
     top: 120px;
     height: 415px;
-    width: 260px;
+    width: 290px;
 "draggable="false"/>
 
 
@@ -156,9 +156,8 @@ value="&nbsp;Split 2&nbsp;" onclick="navNext1()"/>
 style="position: absolute;
     left: 600px;
     top: 200px;
-    height: 320px;
     width: 250px;
-    height: 140px;
+    height: 110px;
     visibility: hidden;
     "draggable="false" onclick="navNext1a()"/>
 
@@ -167,7 +166,7 @@ style="position: absolute;
     left: 500px;
     top:200px;
     width: 255px;
-    height: 120px;
+    height: 100px;
     visibility: hidden;
 "draggable="false" onclick="navNext1b()"/>
 
@@ -175,8 +174,8 @@ style="position: absolute;
 "   position: absolute;
     left: 650px;
     top: 200px;
-    width: 250px;
-    height: 105px;
+    width: 220px;
+    height: 210px;
     visibility: hidden;
 "draggable="false" onclick="navNext1c()"/>
 
@@ -184,8 +183,8 @@ style="position: absolute;
 "   position: absolute;
     left: 650px;
     top: 500px;
-    height: 260px;
-    width: 260px;
+    height: 230px;
+    width: 220px;
     visibility: hidden;
 "draggable="false" onclick="navNext1d()"/>
 
@@ -193,8 +192,8 @@ style="position: absolute;
 "   position: absolute;
     left: 650px;
     top: 500px;
-    height: 195px;
-    width: 190px;
+    height: 210px;
+    width: 220px;
     visibility: hidden;
 "draggable="false" onclick="navNext1e()"/>
 
@@ -202,8 +201,8 @@ style="position: absolute;
 "   position: absolute;
     left: 650px;
     top: 500px;
-    height: 195px;
-    width: 190px;
+    height: 230px;
+    width: 205px;
     visibility: hidden;
 "draggable="false" onclick="navNext1f()"/>
 
@@ -239,22 +238,22 @@ style="position: absolute;
 
     <body>
         <div id="transwhite1" style="width: 370px; top:70px; height: 460px; margin-top: -20px; position: absolute; left:400px;"></div>
-        <span style="position: absolute; left: 30px; top: 10px; font-size:17px; "><strong><u>Structure - 1</u></strong></span>
-        <p class="incanvas" style="font-size:17px; position: absolute; left: 470px; top: 45px;"><strong>1. Enter Reactions (R) : </strong></p>
-        <p class="incanvas" style="font-size:17px; position: absolute; left: 470px; top: 140px;"><strong>2. Equations of conditions (C)  :</strong></p>
-        
-        <p class="incanvas" style="font-size:15px; position: absolute; color: rgb(10, 10, 133);left: 5px; top: 390px;"><strong><u>CONDITIONS:</u></strong><br><u>R < C + 3</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statically Unstable.<br><u>R = C + 3</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statically derminate provided <br>geometrical instablity (stable).<br><u>R > C + 3</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statically indeterminate provided <br>no geometrical instablity.</p>
+        <span style="position: absolute; left: 30px; top: 10px; font-size:17px; "><strong><u>Structure - 1</u> Simply supported Beam</strong></span>
+        <span style="position: absolute; left: 100px; top: 50px; font-size:17px; ">Members are inextesible</span>
+
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 455px; top: 110px;"><strong>2. No of Independent Rotations  :</strong></p>
+        <p class="incanvas" style="font-size:15px; position: absolute; color: rgb(10, 10, 133);left: 5px; top: 410px;"><strong><u>CONDITIONS:</u></strong><br><u>Beam with 1 pinned and 2 roller supports</u></p>
+        <p class="incanvas" style="font-size:18px; position: absolute; color: rgb(10, 10, 133);left: 490px;  top: 255px; "><strong>DKI = </strong></p>
+
         <script src="./script.js"></script>
     <body>
-        <input type="text" style="position: absolute; text-align: center; left: 500px; top: 105px; width: 170px; height: 30px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" id="input1"><br>
-        <input type="text" id="input2" style="position: absolute; text-align: center; height: 35px; left: 500px; top: 200px; width: 170px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
-        <button style="position: absolute; left: 570px; top: 245px; width: 100px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;"onclick="displayText1()">Calculate </button>
-                <output  class="output-box1a" style="position: absolute; left: 435px; right:45px; top: 290px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output1a"></output> 
-                <output  class="output-box1b" style="position: absolute; left: 435px; right:25px; top: 325px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output1b"></output> 
-                <output  class="output-box1c" style="position: absolute; left: 435px; right:25px; top: 360px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output1c"></output> 
-                <output  class="output-box1d" style="position: absolute; left: 435px; right:25px; top: 395px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output1d"></output> 
-                <output  class="output-box1e" style="position: absolute; left: 435px; right:25px; top: 430px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output1e"></output> 
-                <output  class="output-box1e" style="position: absolute; left: 435px; right:25px; top: 465px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output1f"></output> 
+        <input type="text" id="input1a" style="position: absolute; text-align: center; height: 35px; left: 520px; top: 160px; width: 130px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
+        <button style="position: absolute; left: 540px; top: 215px; width: 100px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;"onclick="displayText1()">Calculate </button>
+        <output  class="output-box1aw" style="position: absolute; left: 435px; right:45px; top: 260px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output1aw"></output> 
+        <output  class="output-box1a" style="position: absolute; left: 550px; right:45px; top: 260px; width: 80px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:35px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output1a"></output> 
+                <output  class="output-box1b" style="position: absolute; left: 435px; right:25px; top: 305px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output1b"></output> 
+                <output  class="output-box1c" style="position: absolute; left: 435px; right:25px; top: 350px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output1c"></output> 
+
       
             </body>
       
@@ -262,7 +261,7 @@ style="position: absolute;
       style="position: absolute;
           left: 60px;
           top: 180px;
-          height: 150px;
+          height: 100px;
           width: 300px;
           visibility: hidden;
           "draggable="false"/>
@@ -270,8 +269,8 @@ style="position: absolute;
            style="position: absolute;
                left: 20px;
                top: 130px;
-               height: 210px;
-               width: 350px;
+               height: 140px;
+               width: 330px;
                visibility: hidden; 
                "draggable="false"/>
              <button class="fa fa-hand-o-right" id="nextButton1" style=" color: rgb(119, 119, 121); position:absolute; left:700px; height: 40px; width: 70px; top:515px; font-size: 35px; "onclick="navNext0a()"></button>
@@ -304,41 +303,40 @@ style="position: absolute;
     
     
         <body>
-            <div id="transwhite1" style="width: 370px; top:35px; height: 490px; margin-top: -20px; position: absolute; left:400px;"></div>
+            <div id="transwhite1" style="width: 370px; top:70px; height: 460px; margin-top: -20px; position: absolute; left:400px;"></div>
             <span style="position: absolute; left: 30px; top: 10px; font-size:17px; "><strong><u>Structure - 2</u></strong></span>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 490px; top: 18px;"><strong>1. Enter Reactions (R)  </strong></p>
-            <input type="text" style="position: absolute; text-align: center; left: 500px; top: 58px; width: 170px; height: 30px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" id="input1b">
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 450px; top: 90px;"><strong>2. Conditions of construction (C)  :</strong></p>
-            <input type="text" id="input2b" style="position: absolute; text-align: center; height: 30px; left: 500px; top: 130px; width: 170px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
-            <button style="position: absolute; left: 570px; top: 170px; width: 100px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;"onclick="displayText2()">Calculate </button>
+            <span style="position: absolute; left: 100px; top: 50px; font-size:17px; ">Members are inextesible</span>
 
-            <p class="incanvas" style="font-size:15px; position: absolute; color: rgb(10, 10, 133); left: 5px; top: 390px;"><strong><u>CONDITIONS:</u></strong><br><u>R < C + 3</u> Statically unstable.<br><u>R = C + 3</u> Statically derminate provided no <br>geometrical instablity (stable).<br><u>R > C + 3</u> Statically indeterminate provided <br>no geometrical instablity.</p>
-        <script src="./script.js"></script>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 455px; top: 110px;"><strong>2. No of Independent Rotations  :</strong></p>
+        <p class="incanvas" style="font-size:15px; position: absolute; color: rgb(10, 10, 133);left: 5px; top: 410px;"><strong><u>CONDITIONS:</u></strong><br><u>Beam with 2 roller support at both the ends,</u><br><u>One pinned support and 2 internal hinges</u></p>
+        <p class="incanvas" style="font-size:18px; position: absolute; color: rgb(10, 10, 133);left: 490px;  top: 255px; "><strong>DKI = </strong></p>
+    <script src="./script.js"></script>
         <body>
-                    <output  class="output-box2a" style="position: absolute; left: 435px; right:45px; top: 215px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output2a"></output> 
-                    <output  class="output-box2b" style="position: absolute; left: 435px; right:25px; top: 250px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output2b"></output> 
-                    <output  class="output-box2c" style="position: absolute; left: 435px; right:25px; top: 285px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output2c"></output> 
-                    <output  class="output-box2d" style="position: absolute; left: 435px; right:25px; top: 320px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output2d"></output> 
-                    <output  class="output-box2e" style="position: absolute; left: 435px; right:25px; top: 355px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output2e"></output> 
-                    <output  class="output-box2f" style="position: absolute; left: 435px; right:25px; top: 390px; width: 300px; height: 70px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output2f"></output> 
-
+            <input type="text" id="input1b"style="position: absolute; text-align: center; height: 35px; left: 520px; top: 160px; width: 130px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
+            <button style="position: absolute; left: 605px; top: 215px; width: 100px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;"onclick="displayText2()">Calculate </button>
+            <output  class="output-box2a" style="position: absolute; left: 435px; right:45px; top: 260px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output2aw"></output> 
+                    <output  class="output-box2a" style="position: absolute; left: 550px; right:45px; top: 260px; width: 80px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:35px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output2a"></output> 
+                    <output  class="output-box2b" style="position: absolute; left: 435px; right:25px; top: 305px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output2b"></output> 
+                    <output  class="output-box2c" style="position: absolute; left: 435px; right:25px; top: 350px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output2c"></output> 
+                    <output  class="output-box2d" style="position: absolute; left: 435px; right:25px; top: 395px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output2d"></output> 
+          
           </body>
 
           <img src="images/2a.png"  id="addspecimen2" 
           style="position: absolute;
               left: 60px;
               top: 180px;
-              height: 150px;
-              width: 370px;
+              height: 110px;
+              width: 340px;
               visibility: hidden;
               "draggable="false"/>
 
 <img src="images/2b.png" alt="Blinking blink-image1" id="blink-image2" 
 style="position: absolute;
-    left: 10px;
+    left: 25px;
     top: 170px;
-    height: 190px;
-    width: 380px;
+    height: 140px;
+    width: 360px;
     visibility: hidden; 
     "draggable="false"/>
      <button class="fa fa-hand-o-right" id="nextButton2" style=" color: rgb(119, 119, 121); position:absolute; left:700px; height: 40px; width: 70px; top:515px; font-size: 35px; "onclick="navNext0a()"></button>
@@ -363,22 +361,26 @@ style="position: absolute;
     
         <body>
             <div id="transwhite1" style="width: 370px; top:70px; height: 460px; margin-top: -20px; position: absolute; left:400px;"></div>
-            <span style="position: absolute; left: 30px; top: 10px; font-size:17px; "><strong><u>Structure - 3</u></strong></span>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 470px; top: 45px;"><strong>1. Enter Reactions (R) : </strong></p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 470px; top: 140px;"><strong>2. Equations of conditions (C)  :</strong></p>
-            
-            <p class="incanvas" style="font-size:15px; position: absolute; color: rgb(10, 10, 133); left: 5px; top: 390px;"><strong><u>CONDITIONS:</u></strong><br><u>R < C + 3</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statically Unstable.<br><u>R = C + 3</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statically derminate provided <br>geometrical instablity (stable).<br><u>R > C + 3</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statically indeterminate with <br>no geometrical instablity.</p>
-        <script src="./script.js"></script>
+            <span style="position: absolute; left: 30px; top: 10px; font-size:17px; "><strong><u>Structure - 3</u> &nbsp;&nbsp;&nbsp;<u>Rigid Frame</u></strong></span>
+            <span style="position: absolute; left: 100px; top: 50px; font-size:17px; ">Members are inextesible</span>
+
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 400px; top: 60px;"><strong>1. Enter Reactions (R) : </strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 400px; top: 110px;"><strong>2. No of Joints (J)  :</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 400px; top: 160px;"><strong>3. Inextensibility (Ci)  :</strong></p>
+        <p class="incanvas" style="font-size:15px; position: absolute; color: rgb(10, 10, 133);left: 5px; top: 390px;"><strong><u>CONDITIONS:</u></strong><br><u>-Rigid Frame with fixed supports<br>-Having 3 In-extensibility conditions</u></p>
+        <p class="incanvas" style="font-size:18px; position: absolute; color: rgb(10, 10, 133);left: 490px;  top: 255px; "><strong>DKI = </strong></p>
+    <script src="./script.js"></script>
         <body>
-            <input type="text" id="input1c" style="position: absolute; text-align: center; left: 500px; top: 105px; width: 170px; height: 30px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" ><br>
-            <input type="text" id="input2c" style="position: absolute; text-align: center; height: 35px; left: 500px; top: 200px; width: 170px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
-            <button style="position: absolute; left: 570px; top: 245px; width: 100px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;"onclick="displayText3()">Calculate </button>
-            <output  class="output-box3a" style="position: absolute; left: 435px; right:45px; top: 290px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output3a"></output> 
-            <output  class="output-box3b" style="position: absolute; left: 435px; right:25px; top: 325px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output3b"></output> 
-            <output  class="output-box3c" style="position: absolute; left: 435px; right:25px; top: 360px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output3c"></output> 
+            <input type="text" id="input1c" style="position: absolute; text-align: center;left: 605px; top: 70px; width: 130px; height: 30px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" ><br>
+            <input type="text" id="input2c" style="position: absolute; text-align: center;height: 35px; left: 605px; top: 120px; width: 130px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
+            <input type="text" id="input3c" style="position: absolute; text-align: center; height: 35px; left: 605px; top: 170px; width: 130px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
+            <button style="position: absolute; left: 605px; top: 215px; width: 100px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;"onclick="displayText3()">Calculate </button>
+            <output  class="output-box3a" style="position: absolute; left: 435px; right:45px; top: 260px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output3aw"></output> 
+            <output  class="output-box3a" style="position: absolute; left: 550px; right:45px; top: 260px; width: 80px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:35px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output3a"></output> 
+            <output  class="output-box3b" style="position: absolute; left: 435px; right:25px; top: 305px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output3b"></output> 
+            <output  class="output-box3c" style="position: absolute; left: 435px; right:25px; top: 350px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output3c"></output> 
             <output  class="output-box3d" style="position: absolute; left: 435px; right:25px; top: 395px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output3d"></output> 
-            <output  class="output-box3e" style="position: absolute; left: 435px; right:25px; top: 430px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output3e"></output> 
-            <output  class="output-box3e" style="position: absolute; left: 435px; right:25px; top: 465px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output3f"></output> 
+            <output  class="output-box3e" style="position: absolute; left: 435px; right:25px; top: 440px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output3e"></output> 
             
           </body>
 
@@ -386,17 +388,17 @@ style="position: absolute;
           style="position: absolute;
               left: 60px;
               top: 180px;
-              height: 150px;
-              width: 340px;
+              height: 280px;
+              width: 250px;
               visibility: hidden;
               "draggable="false"/>
 
 <img src="images/3b.png" alt="Blinking blink-image1" id="blink-image3" 
 style="position: absolute;
     left: 10px;
-    top: 180px;
-    height: 130px;
-    width: 390px;
+    top: 70px;
+    height: 320px;
+    width: 340px;
     visibility: hidden; 
     "draggable="false"/>
     <button class="fa fa-hand-o-right" id="nextButton3" style=" color: rgb(120, 121, 119); position:absolute; left:700px; height: 40px; width: 70px; top:515px; font-size: 35px; "onclick="navNext0a()"></button>
@@ -420,25 +422,29 @@ style="position: absolute;
     
         <body>
             <div id="transwhite1" style="width: 370px; top:70px; height: 460px; margin-top: -20px; position: absolute; left:400px;"></div>
-            <span style="position: absolute; left: 30px; top: 10px; font-size:17px; "><strong><u>Structure - 4</u></strong></span>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 405px; top: 60px;"><strong>1. Enter Reactions (R) : </strong></p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 405px; top: 110px;"><strong>2. No. of Members (M)  :</strong></p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 405px; top: 160px;"><strong>3. No. of Joints (J)  :</strong></p>
+            <span style="position: absolute; left: 30px; top: 10px; font-size:17px; "><strong><u>Structure - 4</u> &nbsp;&nbsp;&nbsp;<u>Rigid Frame</u></strong></span>
+            <span style="position: absolute; left: 100px; top: 50px; font-size:17px; ">Members are inextesible</span>
 
-            <p class="incanvas" style="font-size:15px; position: absolute; color: rgb(10, 10, 133); left: 5px; top: 390px;"><strong><u>CONDITIONS:</u></strong><br><u>M + R < 2J</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statically Unstable.<br><u>M + R = 2J</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statically derminate provided <br>geometrical instablity (stable).<br><u>M + R > 2J</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statically indeterminate with <br>no geometrical instablity.</p>
-        <script src="./script.js"></script>
+             <p class="incanvas" style="font-size:17px; position: absolute; left: 405px; top: 60px;"><strong>1. Enter Reactions (R) :</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 405px; top: 110px;"><strong>2. No of Joints (J)  :</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 405px; top: 160px;"><strong>3. In-extensibility (Ci)  :</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 405px; top: 210px;"><strong>3. No of Releases (f)  :</strong></p>
+        <p class="incanvas" style="font-size:15px; position: absolute; color: rgb(10, 10, 133);left: 5px; top: 390px;"><strong><u>CONDITIONS:</u></strong><br><u>-Rigid Frame with hinge <br>-Having inextensibility conditions<br>-included Additional rotations(f) at hinges </p>
+        <p class="incanvas" style="font-size:18px; position: absolute; color: rgb(10, 10, 133);left: 490px;  top: 290px; "><strong>DKI = </strong></p>
+    <script src="./script.js"></script>
         <body>
             <input type="text" id="input1d" style="position: absolute; text-align: center; left: 605px; top: 70px; width: 130px; height: 30px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" ><br>
-            <input type="text" id="input2d" style="position: absolute; text-align: center; height: 35px; left: 605px; top: 120px; width: 130px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
+            <input type="text" id="input2d" style="position: absolute; text-align: center; height: 35px; left: 605px; top: 118px; width: 130px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
             <input type="text" id="input3d" style="position: absolute; text-align: center; height: 35px; left: 605px; top: 170px; width: 130px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
-
-            <button style="position: absolute; left: 605px; top: 215px; width: 100px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;"onclick="displayText4()">Calculate </button>
-            <output  class="output-box4a" style="position: absolute; left: 435px; right:45px; top: 260px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output4a"></output> 
-            <output  class="output-box4b" style="position: absolute; left: 435px; right:25px; top: 295px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output4b"></output> 
-            <output  class="output-box4c" style="position: absolute; left: 435px; right:25px; top: 330px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output4c"></output> 
-            <output  class="output-box4d" style="position: absolute; left: 435px; right:25px; top: 365px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output4d"></output> 
-            <output  class="output-box4e" style="position: absolute; left: 435px; right:25px; top: 400px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output4e"></output> 
-            <output  class="output-box4f" style="position: absolute; left: 435px; right:25px; top: 435px; width: 300px; height: 60px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output4f"></output> 
+            <input type="text" id="input4d" style="position: absolute; text-align: center; height: 35px; left: 605px; top: 220px; width: 130px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
+            <button style="position: absolute; left: 605px; top: 260px; width: 100px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;"onclick="displayText4()">Calculate </button>
+            <output  class="output-box4a" style="position: absolute; left: 435px; right:45px; top: 260px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output4aw"></output> 
+            <output  class="output-box4a" style="position: absolute; left: 550px; right:45px; top: 296px; width: 80px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:35px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output4a"></output> 
+            <output  class="output-box4b" style="position: absolute; left: 435px; right:25px; top: 330px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output4b"></output> 
+            <output  class="output-box4c" style="position: absolute; left: 435px; right:25px; top: 365px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output4c"></output> 
+            <output  class="output-box4d" style="position: absolute; left: 435px; right:25px; top: 400px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output4d"></output> 
+            <output  class="output-box4e" style="position: absolute; left: 435px; right:25px; top: 435px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output4e"></output> 
+            <output  class="output-box4f" style="position: absolute; left: 435px; right:25px; top: 470px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output4f"></output> 
   
           </body>
 
@@ -446,16 +452,16 @@ style="position: absolute;
           style="position: absolute;
               left: 60px;
               top: 180px;
-              height: 320px;
-              width: 320px;
+              height: 260px;
+              width: 240px;
               visibility: hidden;
               "draggable="false"/>
 
 <img src="images/4b.png" alt="Blinking blink-image1" id="blink-image4" 
 style="position: absolute;
-    left: 40px;
+    left: 30px;
     top: 70px;
-    height: 330px;
+    height: 300px;
     width: 340px;
     visibility: hidden; 
     "draggable="false"/>
@@ -480,25 +486,22 @@ style="position: absolute;
    
         <body>
             <div id="transwhite1" style="width: 370px; top:70px; height: 460px; margin-top: -20px; position: absolute; left:400px;"></div>
-            <span style="position: absolute; left: 30px; top: 10px; font-size:17px; "><strong><u>Structure - 5</u></strong></span>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 405px; top: 60px;"><strong>1. Enter Reactions (R) : </strong></p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 405px; top: 110px;"><strong>2. No. of Members (M)  :</strong></p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 405px; top: 160px;"><strong>3. No. of Joints (J)  :</strong></p>
-                
-            <p class="incanvas" style="font-size:15px; position: absolute; color: rgb(10, 10, 133); left: 5px; top: 390px;"><strong><u>CONDITIONS:</u></strong><br><u>M + R < 2J </u> Statically Unstable.<br><u>M + R = 2J</u> Statically derminate provided <br>geometrical instablity (stable).<br><u>M + R > 2J</u> Statically indeterminate with <br>no geometrical instablity.</p>
+            <span style="position: absolute; left: 30px; top: 10px; font-size:17px; "><strong><u>Structure - 5</u> &nbsp;&nbsp;&nbsp;<u>Plane Truss</u></strong></span>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 405px; top: 70px;"><strong>1. Enter Reactions (R) : </strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 405px; top: 130px;"><strong>2. No of Joints (J)  :</strong></p>
+        <p class="incanvas" style="font-size:18px; position: absolute; color: rgb(10, 10, 133);left: 490px;  top: 245px; "><strong>DKI = </strong></p>
+            <p class="incanvas" style="font-size:15px; position: absolute; color: rgb(10, 10, 133); left: 5px; top: 410px;"><strong><u>CONDITIONS:</u></strong><br><u>-Plane truss with one pinned support and <br> roller support</u></p>
             <script src="./script.js"></script>
         <body>
-            <input type="text" id="input1e" style="position: absolute; text-align: center; left: 605px; top: 70px; width: 130px; height: 30px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" ><br>
-            <input type="text" id="input2e" style="position: absolute; text-align: center; height: 35px; left: 605px; top: 120px; width: 130px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
-            <input type="text" id="input3e" style="position: absolute; text-align: center; height: 35px; left: 605px; top: 170px; width: 130px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
-            <button style="position: absolute; left: 605px; top: 215px; width: 100px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF"onclick="displayText5()">Calculate </button>
-            <output  class="output-box5a" style="position: absolute; left: 435px; right:45px; top: 265px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output5a"></output> 
-            <output  class="output-box5b" style="position: absolute; left: 435px; right:25px; top: 300px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output5b"></output> 
-            <output  class="output-box5c" style="position: absolute; left: 435px; right:25px; top: 335px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output5c"></output> 
-            <output  class="output-box5d" style="position: absolute; left: 435px; right:25px; top: 370px; width: 300px; height: 50px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output5d"></output> 
-            <output  class="output-box5e" style="position: absolute; left: 435px; right:25px; top: 425px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output5e"></output> 
-            <output  class="output-box5a" style="position: absolute; left: 435px; right:45px; top: 265px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="woutput5a"></output> 
-
+            <input type="text" id="input1e" style="position: absolute; text-align: center; left: 605px; top: 80px; width: 130px; height: 30px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" ><br>
+            <input type="text" id="input2e" style="position: absolute; text-align: center; height: 35px; left: 605px; top: 140px; width: 130px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
+            <button style="position: absolute; left: 605px; top: 200px; text-align: center; width: 100px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF"onclick="displayText5()">Calculate </button>
+            <output  class="output-box5a" style="position: absolute; left: 435px; right:45px; top: 260px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output5aw"></output> 
+            <output  class="output-box5a" style="position: absolute; left: 550px; right:45px; top: 250px; width: 80px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:35px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output5a"></output> 
+            <output  class="output-box5b" style="position: absolute; left: 435px; right:25px; top: 290px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output5b"></output> 
+            <output  class="output-box5c" style="position: absolute; left: 435px; right:25px; top: 330px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output5c"></output> 
+            <output  class="output-box5d" style="position: absolute; left: 435px; right:25px; top: 370px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output5d"></output> 
+            
           </body>
 
           <img src="images/5a.png"  id="addspecimen5" 
@@ -506,16 +509,16 @@ style="position: absolute;
               left: 60px;
               top: 180px;
               height: 250px;
-              width: 250px;
+              width: 270px;
               visibility: hidden;
               "draggable="false"/>
 
 <img src="images/5b.png" alt="Blinking blink-image1" id="blink-image5" 
 style="position: absolute;
-    left: 30px;
+    left: 40px;
     top: 70px;
-    height: 330px;
-    width: 320px;
+    height: 320px;
+    width: 310px;
     visibility: hidden; 
     "draggable="false"/>
     <button class="fa fa-hand-o-right" id="nextButton5" style=" color: rgb(119, 119, 121); position:absolute; left:700px; height: 40px; width: 70px; top:515px; font-size: 35px; "onclick="navNext0a()"></button>
@@ -541,27 +544,28 @@ style="position: absolute;
     
         <body>
             <div id="transwhite1" style="width: 370px; top:40px; height: 490px; margin-top: -20px; position: absolute; left:400px;"></div>
-            <span style="position: absolute; left: 30px; top: 10px; font-size:17px; "><strong><u>Structure - 6</u></strong></span>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 400px; top: 35px;"><strong>1. Enter Reactions (R) : </strong></p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 400px; top: 80px;"><strong>2. No. of Members (M)  :</strong></p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 400px; top: 120px;"><strong>3. No. of Joints (J)  :</strong></p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 400px; top: 168px;"><strong>4. Cond. of construction (C)  :</strong></p>
-  
-                <p class="incanvas" style="font-size:15px; position: absolute; color: rgb(10, 10, 133); left: 5px; top: 390px;"><strong>CONDITIONS:</strong><br><u>3M + R < 3J + C</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statically Unstable.<br><u>3M + R = 3J + C</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statically derminate provided <br>geometrical instablity.<br><u>3M + R > 3J + C</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statically indeterminate with <br>no geometrical instablity.</p>
+            <span style="position: absolute; left: 30px; top: 10px; font-size:17px; "><strong><u>Structure - 6</u> &nbsp;&nbsp;&nbsp;<u>Plane Frame</u></strong></span>
+            <span style="position: absolute; left: 100px; top: 50px; font-size:17px; ">Members are inextesible</span>
+
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 405px; top: 60px;"><strong>1. Enter Reactions (R) : </strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 405px; top: 110px;"><strong>2. No of Joints (J)  :</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 405px; top: 160px;"><strong>3. No of Members (M)  :</strong></p>
+        <p class="incanvas" style="font-size:15px; position: absolute; color: rgb(10, 10, 133);left: 5px; top: 390px;"><strong><u>CONDITIONS:</u></strong><br><u>Plane Frame with one fixed support<br>one pinned and one roller support.</u></p>
+        <p class="incanvas" style="font-size:18px; position: absolute; color: rgb(10, 10, 133);left: 490px;  top: 255px; "><strong>DKI = </strong></p>
+
         <script src="./script.js"></script>
         <body>
-            <input type="text" id="input1f" style="position: absolute; text-align: center; left: 625px; top: 40px; width: 130px; height: 30px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" ><br>
-            <input type="text" id="input2f" style="position: absolute; text-align: center; height: 30px; left: 625px; top: 85px; width: 130px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
-            <input type="text" id="input3f" style="position: absolute; text-align: center; height: 30px; left: 625px; top: 130px; width: 130px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
-            <input type="text" id="input4f" style="position: absolute; text-align: center; height: 30px; left: 625px; top: 175px; width: 130px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
+            <input type="text" id="input1f" style="position: absolute; text-align: center; left: 605px; top: 70px; width: 130px; height: 30px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" ><br>
+            <input type="text" id="input2f" style="position: absolute; text-align: center; height: 35px; left: 605px; top: 120px; width: 130px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
+            <input type="text" id="input3f" style="position: absolute; text-align: center; height: 35px; left: 605px; top: 170px; width: 130px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;"><br>
 
-            <button style="position: absolute; left: 605px; top: 215px; width: 100px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF"onclick="displayText6()">Calculate </button>
-            <output  class="output-box6a" style="position: absolute; left: 435px; right:45px; top: 260px; width: 310px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output6a"></output> 
-            <output  class="output-box6b" style="position: absolute; left: 435px; right:25px; top: 295px; width: 310px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output6b"></output> 
-            <output  class="output-box6c" style="position: absolute; left: 435px; right:25px; top: 330px; width: 310px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output6c"></output> 
-            <output  class="output-box6d" style="position: absolute; left: 435px; right:25px; top: 365px; width: 310px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output6d"></output> 
-            <output  class="output-box6e" style="position: absolute; left: 435px; right:25px; top: 400px; width: 310px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output6e"></output> 
-            <output  class="output-box6f" style="position: absolute; left: 435px; right:25px; top: 435px; width: 310px; height: 60px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output6f"></output> 
+            <button style="position: absolute; left: 605px; top: 215px; width: 100px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;"onclick="displayText6()">Calculate </button>
+            <output  class="output-box6aw" style="position: absolute; left: 435px; right:45px; top: 260px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output6aw"></output> 
+            <output  class="output-box6a" style="position: absolute; left: 550px; right:45px; top: 260px; width: 80px; height: 30px; border: 1px solid #000; padding-top: 5px; padding-bottom: 5px; padding-right:1px; padding-left:35px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output6a"></output> 
+            <output  class="output-box6b" style="position: absolute; left: 435px; right:25px; top: 305px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output6b"></output> 
+            <output  class="output-box6c" style="position: absolute; left: 435px; right:25px; top: 350px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output6c"></output> 
+            <output  class="output-box6d" style="position: absolute; left: 435px; right:25px; top: 395px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output6d"></output> 
+            <output  class="output-box6e" style="position: absolute; left: 435px; right:25px; top: 440px; width: 300px; height: 30px; border: 1px solid #000; padding-top: 3px; padding-bottom: 3px; padding-right:1px; padding-left:1px;  background-color: #4c4b4b; color: #FFF; display: none; "id="output6e"></output> 
                       
           </body>
 
@@ -569,16 +573,16 @@ style="position: absolute;
           style="position: absolute;
               left: 60px;
               top: 180px;
-              height: 240px;
-              width: 280px;
+              height: 270px;
+              width: 260px;
               visibility: hidden;
               "draggable="false"/>
         <img src="images/6b.png" alt="Blinking blink-image1" id="blink-image6" 
         style="position: absolute;
-        left: 60px;
+        left: 50px;
         top: 80px;
-        height: 240px;
-        width: 280px;
+        height: 300px;
+        width: 320px;
         visibility: hidden; 
         "draggable="false"/>
         <button class="fa fa-hand-o-right" id="nextButton6" style=" color: rgb(119, 119, 121); position:absolute; left:700px; height: 40px; width: 70px; top:515px; font-size: 35px; "onclick="navNext0a()"></button>

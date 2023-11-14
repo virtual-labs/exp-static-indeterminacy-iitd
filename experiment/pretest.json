@@ -1,29 +1,12 @@
 {
   "version": 2.0,
   "questions": [{
-      "question": "1. Which of the followings are indeterminate structure ?",
+      "question": "1. The number of unknowns to be determined in the stiffness method is equal to_____",
       "answers": {
-        "a": "3 hinged arch",
-        "b": "Continous Beam",
-        "c": "3 member of the portal in the fixity at bottom of columns",
-        "d": "All of the above"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "d",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "2. A Statically indeterminate structures_____",
-      "answers": {
-        "a": "Can be analyzed using compatibility equation only",
-        "b": "Can be analyzed using compatibility equations and equations of static equilibrium",
-        "c": "Can be analyzed using static equilibrium equations only",
-        "d": "Cannot be analyzed at all"
+        "a": "Static indeterminacy",
+        "b": "Kinematic indeterminacy",
+        "c": "Difference of Static indeterminacy and kinematic indeterminacy",
+        "d": "Static indeterminacy / Kinematic indeterminacy"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -35,29 +18,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "3. Which of the following conditions must be satisfied for both elastic and plastic method of analysis of indeterminate structures? ",
+      "question": "2. The DKI of truss is ________",
       "answers": {
-        "a": "Yield condition",
-        "b": "Equilibrium condition",
-        "c": "Mechanism condition",
-        "d": "Compatibility condition"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "4. A determinate truss should satisfy the relations ________",
-      "answers": {
-        "a": "M = 2J-3",
-        "b": "M = 2J-4",
-        "c": "M = 3J-2",
-        "d": "M + R = 2J"
+        "a": "3j – r",
+        "b": "j – r ",
+        "c": "4j – r ",
+        "d": "2j – r "
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -68,23 +34,57 @@
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
-	{
-		"question": "5. . If the structure cannot be analyzed for external and internal reactions using equilibrium conditions alone, such structure is ______",
-		"answers": {
-		  "a": "Steel structure",
-		  "b": "Determinate structure ",
-		  "c": "Concrete structure",
-		  "d": "Indeterminate structure "
-		},
-		"explanations": {
-		  "a": "Explanation 1  <a href='www.google.com'>here</a>",
-		  "b": "Explanation 2",
-		  "c": "Explanation 2",
-		  "d": "Explanation 2"
-		},
-		"correctAnswer": "d",
-		"difficulty": "Moderate"
-	  }
+    {
+      "question": "3. An internal hinge in a plane frame increase DKI by N (N = No. of member meeting at the joint). ",
+      "answers": {
+        "a": "N",
+        "b": "N – 2 ",
+        "c": "N – 1",
+        "d": "2N"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. The DKI of a plane frame with extensible member is_____",
+      "answers": {
+        "a": "3j – r",
+        "b": "2j – r  ",
+        "c": "2j + r  ",
+        "d": "3j + r"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. The DKI of a continuous beam is equal to_____",
+      "answers": {
+        "a": "No. of supports",
+        "b": "No. of supports + 1     ",
+        "c": "No. of independent rotations",
+        "d": "None of above "
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
     
   ]
 }

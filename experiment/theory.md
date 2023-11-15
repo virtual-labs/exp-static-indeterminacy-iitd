@@ -1,16 +1,15 @@
 ### Theory
 
-Kinematic indeterminacy refers to the number of independent displacements in a structure in terms of which all other displacements can be expressed. The degree of kinematic indeterminacy of a structure depends on its type (beam, frame, truss etc.) and the number type of supports. The degree of kinematic indeterminacy (DKI) is also called as the degree of freedom. Determination of DKI is the first step in structural analysis using displacement method such as slope deflection method, moment distribution method and the matrix/direct stiffness method.
-<br>
- In contrast to static indeterminacy, which arises from an excess of unknown internal forces or moments, kinematic indeterminacy arises from unknown independent displacements (translations & rotations). The kinematic indeterminacy increases by introduction of members. It can be reduced by the addition constraints or boundary conditions that restrict the possible deformations of the structure. For example, fixing one end of a beam compared to roller support can reduce the DOF of the structure. 
- <br>
-The presence of internal hinges or deformable connections leads to increase in kinematic indeterminacy, as these elements introduce additional degrees of freedom that cannot be determined from the external loads and geometry alone. Kinematic indeterminacy can have practical implications for the design and analysis of structures, as it can affect the distribution of internal forces and stresses and the overall stability of the structure. Overall, the degree of kinematic indeterminacy is an important factor to consider when designing structures and analyzing their behavior under load. 
+The degree of static indeterminacy (DSI) of a structure is a measure of how many unknown internal forces and reactions exist within the structure over and above the minimum necessary to ensure stability & equilibrium. These are beyond those that can be determined through the application of the equations of static equilibrium. In other words, DSI measures the number of additional equations that must be solved to fully determine the internal forces and reactions within the structure. 
+
+
+There are various formula used to determine the static indeterminacy of various type of structure:
+
+<strong>R = C + 3 (For Beams) &nbsp;&nbsp;&nbsp;&nbsp;M + R = 2J (For Truss) &nbsp;&nbsp;&nbsp;&nbsp;3M + R = 3J + C (For Rigid Frames)</strong> 
+
+Where <strong>d</strong> is the degree of static indeterminacy, <strong>J</strong> is the number of joints or points of connection within the structure, <strong>M</strong> is number of elements (members), <strong>C</strong> is conditions of construction and <strong>R</strong> is the number of reaction components (i.e., vertical , horizontal , and moment )at each support. 
 <br><br>
-<strong><u>Formula used to find the degree of kinematic indeterminacy</u></strong> <strong>Beams (inextensible)---------- inextensibility
-- DKI for Plain Truss ------------ (2J - R)
-- DKI for Plain Frame ------------ (3J - R)
-- DKI for Plain Frame with inextensible members ------------ (3J - R - C)
-- DKI for Plain Frame with inextensible members and releases ------------ (3j - R - C<sub>i</sub> + F)
-                 </strong><br>
-                 J = No of joints, R = reactions, C = conditions of constructions, F = Releases
+A statically determinate structure has zero degree of static indeterminacy, meaning that all internal forces and reactions can be determined solely through the application of static equilibrium equations. A statically indeterminate structure, on the other hand, has a degree of static indeterminacy equal to or greater than or it requires additional equations beyond the equations of static equilibrium to fully determine internal forces and reactions. To determine the additional equations needed to solve for internal forces and reactions in a statically indeterminate structure, or force method can be used. The force method  involves the use of compatibility equations, which describe the relationship between deformations and rotations at different points within the structure, and equilibrium equations, which describe the balance of forces and moments within the structure. 
+<br><br>
+In summary, the degree of static indeterminacy is a crucial factor in determining the internal forces and reactions within a structure, and its calculation is an important step in the analysis of statically indeterminate structures. 
 

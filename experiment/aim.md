@@ -1,1 +1,1 @@
-#### This experiment aims to determine the degree of kinematic indeterminacy of different type structures.
+#### This experiment aims to determine the degree of static indeterminacy of different structures having various conditions of construction.

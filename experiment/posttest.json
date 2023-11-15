@@ -1,12 +1,12 @@
 {
   "version": 2.0,
   "questions": [{
-      "question": "1. What will be the kinematic indeterminacy for a beam having one end hinge and other end roller?",
+      "question": "1. The degree of static indeterminacy of a rigid jointed space frame is",
       "answers": {
-        "a": "3",
-        "b": "0",
-        "c": "5",
-        "d": "2"
+        "a": "M + R - 2j",
+        "b": "M + R - 3j",
+        "c": "3M + R - 3j",
+        "d": "6M + R - 6j"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -18,12 +18,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "2. A fixed beam (both ends are fixed) is_____",
+      "question": "2. Degree of Indeterminacy for a beam fixed on both ends is ________",
       "answers": {
-        "a": "Unstable",
-        "b": "Have moments at both the ends",
-        "c": "is kinematically indeterminate",
-        "d": "is kinematically determinate"
+        "a": "5",
+        "b": "Zero",
+        "c": "3",
+        "d": "2"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -35,11 +35,11 @@
       "difficulty": "beginner"
     },
     {
-      "question": "3. The degree of freedom for the vertical guided roller is_____. .",
+      "question": "3. What will be the static indeterminacy for a beam having one end hinged and other end fixed ",
       "answers": {
-        "a": "0",
-        "b": "1",
-        "c": "2",
+        "a": "Zero",
+        "b": "2",
+        "c": "6",
         "d": "3"
       },
       "explanations": {
@@ -48,17 +48,17 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "b",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },
 
     {
-      "question": "4. The degree of freedom of a joint for a rigid jointed plane frame is_____",
+      "question": "4. For any structure, when both ends have roller supports, then the structure will be",
       "answers": {
-        "a": "0",
-        "b": "2",
-        "c": "3",
-        "d": "6"
+        "a": "Stable",
+        "b": "Unstable",
+        "c": "both (a) and (b)",
+        "d": "Non of the above"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -67,23 +67,6 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "b",
-      "difficulty": "moderate"
-    },
-    {
-      "question": "4. The degree of freedom for a pin jointed plane frame is_____",
-      "answers": {
-        "a": "3J - m - r",
-        "b": "3J + m - r",
-        "c": "2J - r",
-        "d": "2J + m"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
       "difficulty": "moderate"
     }
     

@@ -302,7 +302,7 @@
 
       } else {
         // Display an error message
-       document.getElementById("woutput5a").textContent = "Wrong Input, R = 4, B = 7 & J = 5";
+       document.getElementById("woutput5a").textContent = "Wrong Input, R = 4, M = 7 & J = 5";
        document.getElementById("blink-image5").style.visibility="visible";
        document.getElementById("addspecimen5").style.visibility="hidden";
       document.getElementById("woutput5a").style.display = "block";

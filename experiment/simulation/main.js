@@ -1,18 +1,19 @@
 
  function displayText1() {
-      const input1 = document.getElementById("input1").value;
-      const input2 = document.getElementById("input2").value;
-
-      // Check if input1 is 4 and input2 is 1
-      if (input1 == 4 && input2 == 1) { 
+      const input1a = document.getElementById("input1a").value;
+      
+      // Check if input1 is 4 and input2 is 3
+      if (input1a == 3 ) { 
         // Slowly display the text after 2 seconds
         setTimeout(function() {
-          document.getElementById("output1a").textContent = "(1) Reaction (R)= 4 " ;
-          document.getElementById("output1b").textContent = "(2) Cond. of construction(C)=1 (Internal Hinge)" ;
-          document.getElementById("output1c").textContent = "(3) R = C+3" ;
-          document.getElementById("output1d").textContent = "(4) Structure is Determinate" ;
-          document.getElementById("output1e").textContent = "(5) At pt. of hinge Bending Moment=0" ;
-          document.getElementById("output1f").textContent = "Structure is unstable due to internal instability" ;
+          document.getElementById("output1aw").style.visibility="hidden";
+        }, 1);
+        setTimeout(function() {
+
+          document.getElementById("output1a").innerHTML = "3" ;
+          document.getElementById("output1b").textContent = "No of independent rotations = 3" ;
+          document.getElementById("output1c").textContent = "(2) No of Reactions (J) = 4" ;
+          
           document.getElementById("nextButton1").style.visibility="visible";
           document.getElementById("addspecimen1").style.visibility="hidden";
 
@@ -33,25 +34,23 @@
         document.getElementById("output1a").style.display = "block"; 
         document.getElementById("output1b").style.display = "block"; 
         document.getElementById("output1c").style.display = "block"; 
-        document.getElementById("output1d").style.display = "block"; 
-        document.getElementById("output1e").style.display = "block"; 
-        document.getElementById("output1f").style.display = "block"; }
+        }
 
-        if (input1 == "" && input2 == "") { 
+        if (input1a == "" ) { 
           // Slowly display the text after 2 seconds
           setTimeout(function() {
-            document.getElementById("output1a").textContent = "Please Fill the Required Fields.";
+            document.getElementById("output1aw").textContent = "Please Fill the Required Fields.";
   
             
           }, 1000);
-          document.getElementById("output1a").style.display = "block";
+          document.getElementById("output1aw").style.display = "block";
 
       } else {
         // Display an error message
-       document.getElementById("output1a").textContent = "Wrong Input R = 4 & C = 1 ";
+       document.getElementById("output1aw").textContent = "Wrong Input, Independent rotations = 3";
        document.getElementById("blink-image1").style.visibility="visible";
        document.getElementById("addspecimen1").style.visibility="hidden";
-       document.getElementById("output1a").style.display = "block";
+       document.getElementById("output1aw").style.display = "block";
 
       }
 
@@ -62,62 +61,61 @@
     
     function displayText2() {
       const input1b = document.getElementById("input1b").value;
-      const input2b = document.getElementById("input2b").value;
+
 
       // Check if input1 is 3 and input2 is 2
-      if (input1b == 3 && input2b == 2) { 
+      if (input1b == 5 ) { 
         // Slowly display the text after 2 seconds
         setTimeout(function() {
-          document.getElementById("output2a").textContent = "(1) Reaction (R)=3 " ;
-          document.getElementById("output2b").textContent = "(2) R < C+3" ;
-        }, 800);
-          setTimeout(function() {
-          document.getElementById("output2c").textContent = "(3) Structure is unstable" ;
-          document.getElementById("output2d").textContent = "(4) Supports are inadequate" ;
-        }, 1100);
+          document.getElementById("output2aw").style.visibility="hidden";
+        }, 1);
         setTimeout(function() {
-          document.getElementById("output2e").textContent = "(5) Hinge will undergo rotation" ;
-          document.getElementById("output2f").innerHTML = " <strong><u>Conditions. of construction</u></strong> (C)= 2 <br>1. Cannot transfer moment accross the link <br>2. Cannot transfer axial force accross the link." ;
+          document.getElementById("output2a").innerHTML = "5" ;
+          document.getElementById("output2b").textContent = "No of independent rotations = 5" ;
+          document.getElementById("output2c").textContent = "(1) No of Reactions (R) = 5" ;
+          document.getElementById("output2d").textContent = "(2) Conditions of construction C = 2" ;
+
           document.getElementById("addspecimen2").style.visibility="hidden";
           document.getElementById("nextButton2").style.visibility="visible";
-        }, 1400);
-        function showSlowly2a() {
-          var img = document.getElementById("blink-image2");
-          img.style.opacity = 0;
-          img.style.display = "block";
-          var tick = function() {
-            img.style.opacity = +img.style.opacity + 0.01;
-            if (+img.style.opacity < 1) {
-              (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
-            }
-          };
-          tick();
-        }
-        showSlowly2a();
-        document.getElementById("output2a").style.display = "block";
+          document.getElementById("blink-image2").style.visibility="visible";
+
+
+      }, 1000);
+      function showSlowly2a() {
+        var img = document.getElementById("blink-image2");
+        img.style.opacity = 0;
+        img.style.display = "block";
+        var tick = function() {
+          img.style.opacity = +img.style.opacity + 0.01;
+          if (+img.style.opacity < 1) {
+            (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+          }
+        };
+        tick();
+      }
+      showSlowly2a();
         document.getElementById("output2a").style.display = "block"; 
         document.getElementById("output2b").style.display = "block"; 
         document.getElementById("output2c").style.display = "block"; 
         document.getElementById("output2d").style.display = "block"; 
-        document.getElementById("output2e").style.display = "block"; 
-        document.getElementById("output2f").style.display = "block"; }
+        document.getElementById("output2e").style.display = "block"; }
 
-        if (input1b == "" && input2b == "") { 
+        if (input1b == "" ) { 
           // Slowly display the text after 2 seconds
           setTimeout(function() {
-            document.getElementById("output2a").textContent = "Please Fill the Required Fields.";
+            document.getElementById("output2aw").textContent = "Please Fill the Required Fields.";
   
             
           }, 1000);
-          document.getElementById("output2a").style.display = "block";
+          document.getElementById("output2aw").style.display = "block";
 
       } else {
         // Display an error message
-       document.getElementById("output2a").textContent = "Wrong Input, R = 3 & C = 2 }";
+       document.getElementById("output2aw").textContent = "Wrong Input, Independent rotations = 5 ";
        document.getElementById("blink-image2").style.visibility="visible";
        document.getElementById("addspecimen2").style.visibility="hidden";
 
-      document.getElementById("output2a").style.display = "block";
+      document.getElementById("output2aw").style.display = "block";
 
       }
 
@@ -128,19 +126,24 @@
     function displayText3() {
       const input1c = document.getElementById("input1c").value;
       const input2c = document.getElementById("input2c").value;
+      const input3c = document.getElementById("input3c").value;
 
       // Check if input1 is 6 and input2 is 2
-      if (input1c == 6 && input2c == 2) { 
+      if (input1c == 6 && input2c == 4 && input3c == 3) { 
         // Slowly display the text after 2 seconds
         setTimeout(function() {
-          document.getElementById("output3a").textContent = "(1) Reaction (R)=6 " ;
-          document.getElementById("output3b").textContent = "(2) Conditions of construction(C) = 2 (2 Hinges)" ;
-          document.getElementById("output3c").textContent = "(3) R > C+3" ;
-          document.getElementById("output3d").textContent = "(4) Structure is Indeterminate" ;
-          document.getElementById("output3e").textContent = "(5) 2 Internal Hinges" ;
-          document.getElementById("output3f").textContent = "(6) Geometrically stable" ;
+          document.getElementById("output3aw").style.visibility="hidden";
+        }, 1);
+        setTimeout(function() {
+          document.getElementById("output3a").innerHTML = (3 *(parseFloat(input2c))) - parseFloat(input1c) - parseFloat(input3c) ;
+          document.getElementById("output3b").innerHTML = "Degree of Kinematic Indeterminacy = 3J - R - C<sub>i</sub>" ;
+          document.getElementById("output3c").textContent = "(1) No of Joints (J)= 6" ;
+          document.getElementById("output3d").textContent = "(2) No of Reactions (R) = 4" ;
+          document.getElementById("output3e").textContent = "(3) Conditions of inextensibility (Ci) = 3" ;
           document.getElementById("addspecimen3").style.visibility="hidden";
           document.getElementById("nextButton3").style.visibility="visible";
+
+
         }, 1000);
         function showSlowly3a() {
           var img = document.getElementById("blink-image3");
@@ -159,24 +162,23 @@
         document.getElementById("output3b").style.display = "block"; 
         document.getElementById("output3c").style.display = "block"; 
         document.getElementById("output3d").style.display = "block"; 
-        document.getElementById("output3e").style.display = "block"; 
-        document.getElementById("output3f").style.display = "block"; } 
+        document.getElementById("output3e").style.display = "block"; }
 
         if (input1c == "" && input2c == "") { 
           // Slowly display the text after 2 seconds
           setTimeout(function() {
-            document.getElementById("output3a").textContent = "Please Fill the Required Fields.";
+            document.getElementById("output3aw").textContent = "Please Fill the Required Fields.";
   
             
           }, 1000);
-          document.getElementById("output3a").style.display = "block";
+          document.getElementById("output3aw").style.display = "block";
 
       } else {
         // Display an error message
-       document.getElementById("output3a").textContent = "Wrong Input R = 6 & C = 2 }";
+       document.getElementById("output3aw").textContent = "Wrong Input, R = 6, J = 4, Ci = 3";
        document.getElementById("blink-image3").style.visibility="visible";
        document.getElementById("addspecimen3").style.visibility="hidden";
-      document.getElementById("output3a").style.display = "block";
+      document.getElementById("output3aw").style.display = "block";
 
       }
 
@@ -189,18 +191,23 @@
       const input1d = document.getElementById("input1d").value;
       const input2d = document.getElementById("input2d").value;
       const input3d = document.getElementById("input3d").value;
+      const input4d = document.getElementById("input4d").value;
 
 
       // Check if input1 is 3 and input2 is 8 input3 is 5
-      if (input1d == 3 && input2d == 8 && input3d == 5) { 
+      if (input1d == 6 && input2d == 6 && input3d == 6 && input4d == 2) { 
         // Slowly display the text after 2 seconds
         setTimeout(function() {
-          document.getElementById("output4a").textContent = "(1) No. of Bars (B) = 6 & No. of Joints (J) = 5 " ;
-          document.getElementById("output4b").textContent = "(2) No of reactions (R)= 3" ;
-          document.getElementById("output4c").textContent = "(3) B + R > 2 x J" ;
-          document.getElementById("output4d").textContent = "(4) Statically Indeterminate to 1st degree. " ;
-          document.getElementById("output4e").textContent = "(5) No geometrical instability." ;
-          document.getElementById("output4f").textContent = "(6) To convert it into determinate struct, remove 1 bar such that the truss will not get disturbed. " ;
+          document.getElementById("output4aw").style.visibility="hidden";
+        }, 1);
+        setTimeout(function() {
+          document.getElementById("output4a").innerHTML = (3 *(parseFloat(input2d))) - parseFloat(input1d) - parseFloat(input3d) + parseFloat(input4d) ;
+          document.getElementById("output4b").textContent = "Kinematic Indeterminacy = 3J - R - Ci + f" ;
+          document.getElementById("output4c").textContent = "(1) No of Joints (J)= 6" ;
+          document.getElementById("output4d").textContent = "(2) No of Reactions (R) = 6" ;
+          document.getElementById("output4e").textContent = "(3) Conditions of inextensibility (Ci) = 6" ;
+          document.getElementById("output4f").textContent = "(4) No. of Releases (f) = 2" ;
+
           document.getElementById("addspecimen4").style.visibility="hidden";
           document.getElementById("nextButton4").style.visibility="visible";
         }, 1000);
@@ -222,22 +229,23 @@
         document.getElementById("output4c").style.display = "block"; 
         document.getElementById("output4d").style.display = "block"; 
         document.getElementById("output4e").style.display = "block"; 
-        document.getElementById("output4f").style.display = "block"; } 
+        document.getElementById("output4f").style.display = "block";  } 
+      
         if (input1d == "" && input2d == "" && input3d == "") { 
           // Slowly display the text after 2 seconds
           setTimeout(function() {
-            document.getElementById("output4a").textContent = "Please Fill the Required Fields.";
+            document.getElementById("output4aw").textContent = "Please Fill the Required Fields.";
   
             
           }, 1000);
-          document.getElementById("output4a").style.display = "block";
+          document.getElementById("output4aw").style.display = "block";
 
       } else {
         // Display an error message
-       document.getElementById("output4a").textContent = "Wrong Input, R = 3, B = 8 & C = 5";
+       document.getElementById("output4aw").textContent = "Wrong Input, R = 6, J = 6, Ci = 6, f= 2   ";
        document.getElementById("blink-image4").style.visibility="visible";
        document.getElementById("addspecimen4").style.visibility="hidden";
-      document.getElementById("output4a").style.display = "block";
+      document.getElementById("output4aw").style.display = "block";
 
       }
 
@@ -250,28 +258,22 @@
     function displayText5() {
       const input1e = document.getElementById("input1e").value;
       const input2e = document.getElementById("input2e").value;
-      const input3e = document.getElementById("input3e").value;
 
       // Check if input1 is 4 and input2 is 7 & input2 is 5
-      if (input1e == 4 && input2e == 7 && input3e == 5) { 
+      if (input1e == 3 && input2e == 6 ) { 
         // Slowly display the text after 2 seconds
         setTimeout(function() {
-          document.getElementById("woutput5a").style.visibility="hidden";
+          document.getElementById("output5aw").style.visibility="hidden";
         }, 1);
         setTimeout(function() {
-          document.getElementById("output5a").textContent = "(1) No. of Bars (B) = 7 & No. of Joints (J) = 5 " ;
-          document.getElementById("output5b").textContent = "(2) No of reactions (R)= 4" ;
-        }, 800);
-        setTimeout(function() {
-          document.getElementById("output5c").textContent = "(3) B + R > 2 x J" ;
-          document.getElementById("output5d").innerHTML = "(4) The structure is statically indeterminate to 1<sup>st</sup> degree  " ;
-        }, 1100);
-        setTimeout(function() {
-          document.getElementById("output5e").textContent = "(5) Geometricaly unstable." ;
+          document.getElementById("output5a").innerHTML = (2 *(parseFloat(input2e))) - parseFloat(input1e)  ;
+          document.getElementById("output5b").textContent = "(2) Kinematic Indeterminacy = 2J - R" ;
+          document.getElementById("output5c").textContent = "(3) No of Joints (J)= 6" ;
+          document.getElementById("output5d").textContent = "(4) No of Reactions (R) = 3  " ;
           document.getElementById("addspecimen5").style.visibility="hidden";
           document.getElementById("nextButton5").style.visibility="visible";
 
-        }, 1300);
+        }, 1000);
         function showSlowly5a() {
           var img = document.getElementById("blink-image5");
           img.style.opacity = 0;
@@ -288,24 +290,22 @@
         document.getElementById("output5a").style.display = "block"; 
         document.getElementById("output5b").style.display = "block"; 
         document.getElementById("output5c").style.display = "block"; 
-        document.getElementById("output5d").style.display = "block"; 
-        document.getElementById("output5e").style.display = "block"; 
-       }
-        if (input1e == "" && input2e == "" && input3e == "") { 
+        document.getElementById("output5d").style.display = "block"; }
+        if (input1e == "" && input2e == "" ) { 
           // Slowly display the text after 2 seconds
           setTimeout(function() {
-            document.getElementById("woutput5a").textContent = "Please Fill the Required Fields.";
+            document.getElementById("output5aw").textContent = "Please Fill the Required Fields.";
   
             
-          }, 1);
-          document.getElementById("woutput5a").style.display = "block";
+          }, 1000);
+          document.getElementById("output5aw").style.display = "block";
 
       } else {
         // Display an error message
-       document.getElementById("woutput5a").textContent = "Wrong Input, R = 4, M = 7 & J = 5";
+       document.getElementById("output5aw").textContent = "Wrong Input, R = 3, J = 6 ";
        document.getElementById("blink-image5").style.visibility="visible";
        document.getElementById("addspecimen5").style.visibility="hidden";
-      document.getElementById("woutput5a").style.display = "block";
+      document.getElementById("output5aw").style.display = "block";
 
       }
 
@@ -319,22 +319,24 @@
       const input1f = document.getElementById("input1f").value;
       const input2f = document.getElementById("input2f").value;
       const input3f = document.getElementById("input3f").value;
-      const input4f = document.getElementById("input4f").value;
 
 
 
       // Check if input1 is 6 and input2 is 6 input3 is 6 input4 is 2
-      if (input1f == 6 && input2f == 6 && input3f == 6 && input4f == 2) { 
+      if (input1f == 6 && input2f == 12 && input3f == 15 ) { 
         // Slowly display the text after 2 seconds 
         setTimeout(function() {
-          document.getElementById("output6a").textContent = "(1) No. of Elements (B) = 6 & No. of Joints (J) = 6 " ;
-          document.getElementById("output6b").textContent = "(2) No of reactions(R)= 6 & cond. of const. (C)= 2"  ;
-          document.getElementById("output6c").textContent = "(3) 3B + R > 3J + C " ;
-          document.getElementById("output6d").textContent = "(4) Structure is Statically Indeterminate  " ;
-          document.getElementById("output6e").textContent = "(5) No Geometrical instablity ." ;
-          document.getElementById("output6f").textContent = "(6)  Conclusion: Structure is stable & indeterminate to 4th degree " ;           
+          document.getElementById("output6aw").style.visibility="hidden";
+        }, 1);
+        setTimeout(function() {
+          document.getElementById("output6a").innerHTML = (3 *(parseFloat(input2f))) - parseFloat(input1f) - parseFloat(input3f) ;
+          document.getElementById("output6b").innerHTML = "Kinematic Indeterminacy = 3J - R - C<sub>i</sub>"  ;
+          document.getElementById("output6c").textContent = "(1) No of Joints (J)= 6 " ;
+          document.getElementById("output6d").textContent = "(2) No of Reactions (R) = 6  " ;
+          document.getElementById("output6e").textContent = "(3) Conditions of Members (M) = 6" ;
           document.getElementById("addspecimen6").style.visibility="hidden";
           document.getElementById("nextButton6").style.visibility="visible";
+
         }, 1000);
         function showSlowly6a() {
           var img = document.getElementById("blink-image6");
@@ -353,23 +355,22 @@
         document.getElementById("output6b").style.display = "block"; 
         document.getElementById("output6c").style.display = "block"; 
         document.getElementById("output6d").style.display = "block"; 
-        document.getElementById("output6e").style.display = "block"; 
-        document.getElementById("output6f").style.display = "block"; }
+        document.getElementById("output6e").style.display = "block";  }
         if (input1f == "" && input2f == "" && input3f == "") { 
           // Slowly display the text after 2 seconds
           setTimeout(function() {
-            document.getElementById("output6a").textContent = "Please Fill the Required Fields.";
+            document.getElementById("output6aw").textContent = "Please Fill the Required Fields.";
   
             
           }, 1000);
-          document.getElementById("output6a").style.display = "block";
+          document.getElementById("output6aw").style.display = "block";
 
       } else {
         // Display an error message
-       document.getElementById("output6a").textContent = "Wrong Input, R = 6, B = 6, J = 6, C = 2";
+       document.getElementById("output6aw").textContent = "Wrong Input, R = 6,J = 12, M = 15  ";
        document.getElementById("blink-image6").style.visibility="visible";
        document.getElementById("addspecimen6").style.visibility="hidden";
-      document.getElementById("output6a").style.display = "block";
+      document.getElementById("output6aw").style.display = "block";
 
       }
 
@@ -425,6 +426,8 @@ document.getElementById("nextButton3").style.visibility="hidden";
 document.getElementById("nextButton4").style.visibility="hidden";
 document.getElementById("nextButton5").style.visibility="hidden";
 document.getElementById("nextButton6").style.visibility="hidden";
+document.getElementById("nextButton6").style.visibility="hidden";
+
 document.getElementById("canvas1").style.visibility="visible";
 
 }

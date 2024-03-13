@@ -1,1 +1,1 @@
-##  Determination of Static Indeterminacy
+##  Determination of Kinematic Indeterminacy 

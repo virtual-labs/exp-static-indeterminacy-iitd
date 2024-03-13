@@ -1,16 +1,18 @@
 ### Theory
 
-Kinematic indeterminacy refers to the number of independent displacements in a structure in terms of which all other displacements can be expressed. The degree of kinematic indeterminacy of a structure depends on its type (beam, frame, truss etc.)and the numbers and type of supports. The degree of kinematic indeterminacy (DKI) is also called as the degree of freedom. Determination of DKI is the first step in structural analysis using displacement methods such as the slope deflection method, the moment distribution method and the matrix/direct stiffness method.
+The degree of static indeterminacy (DSI) of a structure is a measure of how many unknown internal forces and reactions exist within the structure over and above the minimum necessary to ensure stability and equilibrium. These are beyond those that can be determined through the application of the equations of static equilibrium. In other words, DSI measures the number of additional equations that must be solved (based on conditions of compatibility) to fully determine the internal forces and reactions within the structure. 
+
+
+There are various formula used to determine the static indeterminacy of various type of structure:
+
+<strong>- DSI for Beams ------------- (R - C + 3)
+- DSI for Truss ------------ (M + R) - 2J
+- DSI for Rigid frames ------------ (3M + R) - 3J
+</strong><br><br>
+
+where  <strong>J</strong> is the number of joints (or points of connection) within the structure, <strong>M</strong> is number of elements (members), <strong>C</strong> is conditions of construction and <strong>R</strong> is the number of reaction components (i.e., vertical , horizontal , and moment )at each support. 
 <br><br>
- In contrast to static indeterminacy, which arises from an excess of unknown forces or moments, kinematic indeterminacy arises from unknown independent displacements (translations and rotations). The kinematic indeterminacy increases by introduction of members and is reduced by the addition of constraints or boundary conditions that restrict the possible deformations of the structure. For example, fixing one end of a beam compared to roller support can reduce the DKI of the structure. 
- <br>
-The presence of internal hinges or deformable connections leads to increase in kinematic indeterminacy, as these elements introduce additional degrees of freedom that cannot be determined from the external loads and geometry alone. Kinematic indeterminacy can have practical implications for analysis and design of structures, as it can affect the distribution of internal forces and stresses and the overall stability of the structure. Overall, the degree of kinematic indeterminacy is an important factor to consider when analyzing and designing the structures.
+A statically determinate structure has zero degree of static indeterminacy, meaning that all internal forces and reactions can be determined solely through the application of static equilibrium equations. A statically indeterminate structure, on the other hand, has a degree of static indeterminacy equal to or greater than one. It requires additional equations beyond the equations of static equilibrium to fully determine internal forces and reactions. Force method can be used to determine the additional compatibility equations needed to solve for internal forces and reactions in a statically indeterminate structure. The force method  involves the use of compatibility equations, which describe the relationship between deformations and rotations at different points within the structure, and equilibrium equations, which describe the balance of forces and moments within the structure. 
 <br><br>
-<strong><u>Formula used to compute the degree of kinematic indeterminacy</u></strong> 
-<strong>- Beams ------------- members are assumed inextensible beams and frames
-- DKI for Plane Truss ------------ (2J - R)
-- DKI for Plane Frame ------------ (3J - R) (Extensible member)
-- DKI for Plane Frame with inextensible members ------------ (3J - R - C<sub>i</sub>)
-- DKI for Plane Frame with inextensible members and releases ------------ (3j - R - C<sub>i</sub> + F) </strong><br><br>
-                 J = No of joints, R = No. of reactions, C<sub>i</sub> = No. of conditions inextensibility, F = No. of releases
+In summary, the degree of static indeterminacy is a crucial factor in determining the internal forces and reactions within a structure, and its calculation is an important step in the analysis of statically indeterminate structures. 
 

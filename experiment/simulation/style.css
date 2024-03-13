@@ -45,12 +45,11 @@ html
 {
 	/**/
 	border: 2px solid #666666;
-	background-color: #dad9df;
 	background-image: linear-gradient(rgb(214, 232, 245), rgb(249, 213, 213));
-
 	border-radius: 20px;
 	top:300px;
 }
+
 
 .style1 {
 	color: #FF0000;
@@ -255,7 +254,7 @@ font-size: 20px;
 
 	50% {left:603px; top:317px;}
 
-	100% {left:540px; top:70px;}
+	100% {left:540px; top:125px;}
 
 }
 
@@ -269,7 +268,7 @@ font-size: 20px;
 
 	50% {left:40px; bottom:690px;}
 
-	100% {left:10px; top:260px;}
+	100% {left:20px; top:260px;}
 
 }
 
@@ -282,7 +281,7 @@ font-size: 20px;
 
 	50% {left:465px; top:342px;}
 
-	100% {left:280px; top:280px;}
+	100% {left:300px; top:280px;}
 
 }
 
@@ -294,7 +293,7 @@ font-size: 20px;
 
 	50% {left:603px; top:317px;}
 
-	100% {left:560px; top:290px;}
+	100% {left:560px; top:280px;}
 
 }
 
@@ -311,7 +310,7 @@ font-size: 20px;
 {
 
 	0% {left:0px; top:0px;}
-	100% {left:25px; top:180px;}
+	100% {left:15px; top:180px;}
 
 }
 @-webkit-keyframes addspecimen3
@@ -319,7 +318,7 @@ font-size: 20px;
 {
 
 	0% {left:0px; top:0px;}
-	100% {left:70px; top:100px;}
+	100% {left:20px; top:200px;}
 
 }
 @-webkit-keyframes addspecimen4
@@ -330,7 +329,7 @@ font-size: 20px;
 
 	50% {left:40px; bottom:690px;}
 
-	100% {left:70px; top:100px;}
+	100% {left:50px; top:80px;}
 
 }
 @-webkit-keyframes addspecimen5
@@ -341,7 +340,7 @@ font-size: 20px;
 
 	50% {left:40px; bottom:690px;}
 
-	100% {left:60px; top:115px;}
+	100% {left:70px; top:115px;}
 
 }
 @-webkit-keyframes addspecimen6
@@ -352,7 +351,7 @@ font-size: 20px;
 
 	50% {left:40px; bottom:690px;}
 
-	100% {left:70px; top:100px;}
+	100% {left:60px; top:100px;}
 
 }
 

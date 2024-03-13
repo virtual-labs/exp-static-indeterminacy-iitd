@@ -4,10 +4,11 @@
       const input2 = document.getElementById("input2").value;
 
       // Check if input1 is 4 and input2 is 1
-      if (input1 == 4 && input2 == 1) { 
+      if (input1 == 4 && input2 == 1
+        ) { 
         // Slowly display the text after 2 seconds
         setTimeout(function() {
-          document.getElementById("output1a").textContent = "(1) Reaction (R)= 4 " ;
+          document.getElementById("output1a").textContent = "(1) Reaction (R)=4 " ;
           document.getElementById("output1b").textContent = "(2) Cond. of construction(C)=1 (Internal Hinge)" ;
           document.getElementById("output1c").textContent = "(3) R = C+3" ;
           document.getElementById("output1d").textContent = "(4) Structure is Determinate" ;
@@ -48,7 +49,7 @@
 
       } else {
         // Display an error message
-       document.getElementById("output1a").textContent = "Wrong Input R = 4 & C = 1 ";
+       document.getElementById("output1a").textContent = "Wrong Input Values.{ HINT: C = 1 }";
        document.getElementById("blink-image1").style.visibility="visible";
        document.getElementById("addspecimen1").style.visibility="hidden";
        document.getElementById("output1a").style.display = "block";
@@ -69,18 +70,14 @@
         // Slowly display the text after 2 seconds
         setTimeout(function() {
           document.getElementById("output2a").textContent = "(1) Reaction (R)=3 " ;
-          document.getElementById("output2b").textContent = "(2) R < C+3" ;
-        }, 800);
-          setTimeout(function() {
-          document.getElementById("output2c").textContent = "(3) Structure is unstable" ;
-          document.getElementById("output2d").textContent = "(4) Supports are inadequate" ;
-        }, 1100);
-        setTimeout(function() {
-          document.getElementById("output2e").textContent = "(5) Hinge will undergo rotation" ;
-          document.getElementById("output2f").innerHTML = " <strong><u>Conditions. of construction</u></strong> (C)= 2 <br>1. Cannot transfer moment accross the link <br>2. Cannot transfer axial force accross the link." ;
+          document.getElementById("output2b").textContent = "(2) Cond. of construction(C) = 2(Internal Hinge)" ;
+          document.getElementById("output2c").textContent = "(3) R < C+3" ;
+          document.getElementById("output2d").textContent = "(4) Structure is unstable" ;
+          document.getElementById("output2e").textContent = "(5) Supports are inadequate" ;
+          document.getElementById("output2f").textContent = "(6) Hinge will undergo rotation" ;
           document.getElementById("addspecimen2").style.visibility="hidden";
           document.getElementById("nextButton2").style.visibility="visible";
-        }, 1400);
+        }, 1000);
         function showSlowly2a() {
           var img = document.getElementById("blink-image2");
           img.style.opacity = 0;
@@ -113,7 +110,7 @@
 
       } else {
         // Display an error message
-       document.getElementById("output2a").textContent = "Wrong Input, R = 3 & C = 2 }";
+       document.getElementById("output2a").textContent = "Wrong Input Values.{ HINT: R = 3 }";
        document.getElementById("blink-image2").style.visibility="visible";
        document.getElementById("addspecimen2").style.visibility="hidden";
 
@@ -173,7 +170,7 @@
 
       } else {
         // Display an error message
-       document.getElementById("output3a").textContent = "Wrong Input R = 6 & C = 2 }";
+       document.getElementById("output3a").textContent = "Wrong Input Values.{ HINT: C = 2 }";
        document.getElementById("blink-image3").style.visibility="visible";
        document.getElementById("addspecimen3").style.visibility="hidden";
       document.getElementById("output3a").style.display = "block";
@@ -234,7 +231,7 @@
 
       } else {
         // Display an error message
-       document.getElementById("output4a").textContent = "Wrong Input, R = 3, B = 8 & C = 5";
+       document.getElementById("output4a").textContent = "Wrong Input Values.{ HINT: B = 6 }";
        document.getElementById("blink-image4").style.visibility="visible";
        document.getElementById("addspecimen4").style.visibility="hidden";
       document.getElementById("output4a").style.display = "block";
@@ -256,22 +253,16 @@
       if (input1e == 4 && input2e == 7 && input3e == 5) { 
         // Slowly display the text after 2 seconds
         setTimeout(function() {
-          document.getElementById("woutput5a").style.visibility="hidden";
-        }, 1);
-        setTimeout(function() {
           document.getElementById("output5a").textContent = "(1) No. of Bars (B) = 7 & No. of Joints (J) = 5 " ;
           document.getElementById("output5b").textContent = "(2) No of reactions (R)= 4" ;
-        }, 800);
-        setTimeout(function() {
           document.getElementById("output5c").textContent = "(3) B + R > 2 x J" ;
-          document.getElementById("output5d").innerHTML = "(4) The structure is statically indeterminate to 1<sup>st</sup> degree  " ;
-        }, 1100);
-        setTimeout(function() {
-          document.getElementById("output5e").textContent = "(5) Geometricaly unstable." ;
+          document.getElementById("output5d").textContent = "(4) Structure is Statically Indeterminate  " ;
+          document.getElementById("output5e").textContent = "(5) Geometricaly Unstable." ;
+          document.getElementById("output5f").textContent = "(6) To make it Determinate we replace one of the 2 support with roller support but still it will remain unstable. " ; 
           document.getElementById("addspecimen5").style.visibility="hidden";
           document.getElementById("nextButton5").style.visibility="visible";
 
-        }, 1300);
+        }, 1000);
         function showSlowly5a() {
           var img = document.getElementById("blink-image5");
           img.style.opacity = 0;
@@ -290,22 +281,22 @@
         document.getElementById("output5c").style.display = "block"; 
         document.getElementById("output5d").style.display = "block"; 
         document.getElementById("output5e").style.display = "block"; 
-       }
+        document.getElementById("output5f").style.display = "block"; }
         if (input1e == "" && input2e == "" && input3e == "") { 
           // Slowly display the text after 2 seconds
           setTimeout(function() {
-            document.getElementById("woutput5a").textContent = "Please Fill the Required Fields.";
+            document.getElementById("output5a").textContent = "Please Fill the Required Fields.";
   
             
-          }, 1);
-          document.getElementById("woutput5a").style.display = "block";
+          }, 1000);
+          document.getElementById("output5a").style.display = "block";
 
       } else {
         // Display an error message
-       document.getElementById("woutput5a").textContent = "Wrong Input, R = 4, M = 7 & J = 5";
+       document.getElementById("output5a").textContent = "Wrong Input Values.{ HINT: R = 4 }";
        document.getElementById("blink-image5").style.visibility="visible";
        document.getElementById("addspecimen5").style.visibility="hidden";
-      document.getElementById("woutput5a").style.display = "block";
+      document.getElementById("output5a").style.display = "block";
 
       }
 
@@ -366,7 +357,7 @@
 
       } else {
         // Display an error message
-       document.getElementById("output6a").textContent = "Wrong Input, R = 6, B = 6, J = 6, C = 2";
+       document.getElementById("output6a").textContent = "Wrong Input Values.{ HINT: R = 6 }";
        document.getElementById("blink-image6").style.visibility="visible";
        document.getElementById("addspecimen6").style.visibility="hidden";
       document.getElementById("output6a").style.display = "block";

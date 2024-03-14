@@ -1,0 +1,1 @@
+#### This experiment aims to determine the degree of static indeterminacy of various type structures, such as beams, trusses, frames etc., having various conditions of construction.

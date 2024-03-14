@@ -1,24 +1,24 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Civil Engineering
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Structural Analysis II Lab
+<b> Experiment|     <b> Static Indeterminacy
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+his experiment aims to determine the degree of static indeterminacy of various type structures, such as beams, trusses, frames etc., having various conditions of construction.
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> Prof. Suresh Bhalla 
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b>  IIT Delhi
+<b> Email id|     <b>  sbhalla@civil.iitd.ac.in 
+<b> Department |  Civil Engineering
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+1 | Sayed Sameer Hasan |  | Civil Engineering | IIT Delhi | sameerh.iitd@gmail.com
+

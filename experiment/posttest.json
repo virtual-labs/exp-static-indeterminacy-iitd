@@ -9,10 +9,8 @@
         "d": "6M + R - 6j"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Degree of static indeterminacy of a rigid jointed space frame is M + R - 2j"
+
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -26,10 +24,8 @@
         "d": "2"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+
+        "d": "Degree of Indeterminacy for a beam fixed on both ends is 2"
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
@@ -43,10 +39,8 @@
         "d": "3"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "the static indeterminacy for a beam having one end hinged and other end fixed is zero"
+
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -61,10 +55,9 @@
         "d": "Non of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+
+        "b": "Explanation 2"
+
       },
       "correctAnswer": "b",
       "difficulty": "moderate"

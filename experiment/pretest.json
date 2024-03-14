@@ -9,9 +9,6 @@
         "d": "All of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
         "d": "Explanation 2"
       },
       "correctAnswer": "d",
@@ -26,10 +23,9 @@
         "d": "Cannot be analyzed at all"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+
+        "b": "Statically indeterminate structures Can be analyzed using compatibility equations and equations of static equilibrium "
+
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -43,10 +39,9 @@
         "d": "Compatibility condition"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+
+        "b": "Equilibrium condition must be satisfied for both elastic and plastic method of analysis of indeterminate structures."
+
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -60,10 +55,8 @@
         "d": "M + R = 2J"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "A determinate truss should satisfy the relations M = 2J-3"
+
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -77,10 +70,8 @@
 		  "d": "Indeterminate structure "
 		},
 		"explanations": {
-		  "a": "Explanation 1  <a href='www.google.com'>here</a>",
-		  "b": "Explanation 2",
-		  "c": "Explanation 2",
-		  "d": "Explanation 2"
+
+		  "d": "Indeterminate structure cannot be analyzed for external and internal reactions using equilibrium conditions only."
 		},
 		"correctAnswer": "d",
 		"difficulty": "Moderate"

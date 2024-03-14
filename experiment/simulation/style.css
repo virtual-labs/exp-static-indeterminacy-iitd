@@ -36,7 +36,7 @@ html
 {
 	/**/
 	border: 2px solid #F36F21;
-	background-color: rgb(255, 255, 255, 0.95);
+	background-image: linear-gradient(rgb(255, 255, 255), rgb(205, 230, 248));
 	border-radius: 0px;
 
 }
@@ -45,10 +45,11 @@ html
 {
 	/**/
 	border: 2px solid #666666;
-	background-color: #dad9df;
+	background-image: linear-gradient(rgb(214, 232, 245), rgb(249, 213, 213));
 	border-radius: 20px;
 	top:300px;
 }
+
 
 .style1 {
 	color: #FF0000;

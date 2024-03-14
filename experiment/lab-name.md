@@ -1,1 +1,1 @@
-### Virtual Structural Analysis-II Lab
+### Static Indeterminacy
